@@ -5,26 +5,32 @@
         <title>Wicked - Historia</title>
         <meta name="description" content="Site sobre o filme 'Wicked'">
         <link rel="icon" href="Imagens/Logo.png" type="image/png">
+
+        
+
+         <!-- Links para trazer os ícones via CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
     </head>
 
     <body> 
         <header>
-            <nav>
-                <ul> 
-                    <form action="index.html">
-                        <input type="submit" value="Menu" />
-                    </form>
+            <nav>         
+                <form action="index.html">
+                    <button class="menu_button">
+                        <span class="fa fa-home"></span>
+                    </button>
+                </form>
 
-                    <li><a href="Historia.html"> Historia </a></li>
-                    <li><a href="Elenco.html"> Elenco </a></li>
-                    <li><a href="Playlist.html"> Playlist </a></li>
-                    <li><a href="Quiz.html"> Quiz </a></li>
-                </ul>
-            </nav>
+                <a href="Historia.html"> Historia </a>
+                <a href="Elenco.html"> Elenco </a>
+                <a href="Playlist.html"> Playlist </a>
+                <a href="Quiz.html"> Quiz </a>
+        </nav>
         </header>
         <main>
-            <section>
-                <p>"You're gonna be popular"</p>
+            <section class="topicos">
+                <p id="frase-de-efeito">"You're gonna be popular"</p>
                 <h1>História</h1>
                 
                 <nav>
@@ -111,7 +117,7 @@
                         Dolores iure numquam debitis eveniet minus vero delectus aut earum quia ipsa quis, beatae vitae quidem obcaecati, 
                         </p>
                         
-                        <div>
+                        <div class="table-responsive">
                             <table border="1">
 
                                 <!--Primeira linha-->
@@ -166,7 +172,7 @@
                 </section>
             </section>
 
-
+            <p><a href="#">Voe de volta ao topo!</a></p>
         </main>
         <footer></footer>
     </body>    

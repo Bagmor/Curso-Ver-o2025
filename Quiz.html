@@ -8,33 +8,40 @@
          "site sobre o filme 'Wicked' inspirado no musical de sucesso!">
          <link rel="icon" href="Imagens/Logo.png" type="image/png">
 
+
+         <!-- Links para trazer os ícones via CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+    </head>
+
+
     </head>
     <body>
         <!-- Body = Tudo que é visivél como botões, menu...-->
         <header>
             <!-- Tag de navegação, onde ficará o menu-->
-            <nav>
-                <ul> 
-                    <form action="index.html">
-                        <input type="submit" value="Menu" />
-                    </form>
-                    
-                    <li><a href="Historia.html"> Historia </a></li>
-                    <li><a href="Elenco.html"> Elenco </a></li>
-                    <li><a href="Playlist.html"> Playlist </a></li>
-                    <li><a href="Quiz.html"> Quiz </a></li>
-                </ul>
-            </nav>
+            <nav>         
+                <form action="index.html">
+                    <button class="menu_button">
+                        <span class="fa fa-home"></span>
+                    </button>
+                </form>
+
+                <a href="Historia.html"> Historia </a>
+                <a href="Elenco.html"> Elenco </a>
+                <a href="Playlist.html"> Playlist </a>
+                <a href="Quiz.html"> Quiz </a>
+        </nav>
         </header>
-        <main> 
+        <main class="main-container"> 
             <section>
-                <p>Green?</p>
+                <p id="frase-de-efeito">Green or Pink?</p>
                 <h1>Quiz: Elphaba ou Glinda? </h1>
                 <p>Faça o quiz e descubra qual bruxa do fantástico mundo de Oz você seria!</p>
                 
             </section>
 
-            <section>
+            <section class="main-block">
                 <h3>Como você costuma enfrentar desafios?</h3>
                 <form>
                     <!--Primeira Opção-->
@@ -49,6 +56,7 @@
 
                 </form>
             </section>
+            <p><a href="#">Voe de volta ao topo!</a></p>
         </main>
         <footer>
 
