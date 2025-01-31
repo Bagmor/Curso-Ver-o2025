@@ -6,7 +6,7 @@
         <meta name="description" content="Site sobre o filme 'Wicked'">
         <link rel="icon" href="Imagens/Logo.png" type="image/png">
 
-        
+        <link rel="stylesheet" href="styles_historia.css">
 
          <!-- Links para trazer os ícones via CDN -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -15,13 +15,10 @@
 
     <body> 
         <header>
-            <nav>         
-                <form action="index.html">
-                    <button class="menu_button">
-                        <span class="fa fa-home"></span>
-                    </button>
-                </form>
+            <a href="index.html"><img src="Imagens/logo_wicekd.png"></a> 
 
+            <nav>         
+                
                 <a href="Historia.html"> Historia </a>
                 <a href="Elenco.html"> Elenco </a>
                 <a href="Playlist.html"> Playlist </a>
@@ -29,20 +26,23 @@
         </nav>
         </header>
         <main>
+
+
             <section class="topicos">
                 <p id="frase-de-efeito">"You're gonna be popular"</p>
                 <h1>História</h1>
                 
-                <nav>
-                    <a href="#intro">Introdução</a> <br>
-                    <a href="#brasil">Wicked no Brasil</a> <br>
-                    <a href="#criacao">Enredo</a><br>
-                    <a href="#elenco">Personagens e Intérpretes</a>
+            </section>
 
-                </nav>
+            <nav class="sumario">
+                <a href="#intro">Introdução</a> <br>
+                <a href="#brasil">Wicked no Brasil</a> <br>
+                <a href="#criacao">Enredo</a><br>
+                <a href="#elenco">Personagens e Intérpretes</a>
 
-                <section>
-                    <article>
+            </nav>
+            <section>
+                                    <article>
                             <h3 id="intro">Introdução</h3>
                             <figure>
                                 <img src="Imagens/Wicked-poster.jpg" alt="Uma imagem do poster do musical">
@@ -169,11 +169,13 @@
                
 
 
-                </section>
+                
             </section>
 
-            <p><a href="#">Voe de volta ao topo!</a></p>
+            <p id="topo"><a href="#">Voe de volta ao topo!</a></p>
         </main>
-        <footer></footer>
+        <footer> 
+            <small>&copy; 2025 Universal Studios. Todos os direitos reservados</small>
+        </footer>
     </body>    
 </html>

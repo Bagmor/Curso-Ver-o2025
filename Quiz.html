@@ -7,7 +7,7 @@
          <meta name="description" content=
          "site sobre o filme 'Wicked' inspirado no musical de sucesso!">
          <link rel="icon" href="Imagens/Logo.png" type="image/png">
-
+          <link rel="stylesheet" href="styles_quiz.css">
 
          <!-- Links para trazer os ícones via CDN -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -19,20 +19,14 @@
     <body>
         <!-- Body = Tudo que é visivél como botões, menu...-->
         <header>
-            <!-- Tag de navegação, onde ficará o menu-->
-            <nav>         
-                <form action="index.html">
-                    <button class="menu_button">
-                        <span class="fa fa-home"></span>
-                    </button>
-                </form>
-
-                <a href="Historia.html"> Historia </a>
-                <a href="Elenco.html"> Elenco </a>
-                <a href="Playlist.html"> Playlist </a>
-                <a href="Quiz.html"> Quiz </a>
-        </nav>
-        </header>
+                    <a href="index.html"><img src="Imagens/logo_wicekd.png"></a>
+                    <nav>
+                        <a href="Historia.html">HISTÓRIA</a>
+                        <a href="Elenco.html">ELENCO</a>
+                        <a href="Playlist.html">PLAYLIST</a>
+                        <a href="Quiz.html">QUIZ</a>
+                    </nav>
+                </header>
         <main class="main-container"> 
             <section>
                 <p id="frase-de-efeito">Green or Pink?</p>
@@ -56,10 +50,10 @@
 
                 </form>
             </section>
-            <p><a href="#">Voe de volta ao topo!</a></p>
+            <p id="topo"><a href="#">Voe de volta ao topo!</a></p>
         </main>
-        <footer>
-
+        <footer> 
+            <small>&copy; 2025 Universal Studios. Todos os direitos reservados</small>
         </footer>
     </body>
 
