@@ -54,11 +54,12 @@ main{
 }
 
 #frase-de-efeito{
-    color:#96008e;
+    color: #8C3746;
     font-weight: 600;
+    letter-spacing: 1px; 
+    text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
     font-size: 1.1rem;
-    letter-spacing: 2px;
-    text-shadow: 0px 0px 8px #ad04a2 ;
+    text-align: center;
     /*deslocamento horizontal | deslocamento vertical | desfoque/suavização da sombra | cor*/
 }
 
@@ -142,4 +143,11 @@ footer{
     color:#f8d68d;
     text-align: center;
     padding:20px 0px;
+}
+
+
+@media (max-width:160px){
+    header img{
+        width:100%;
+    }
 }
