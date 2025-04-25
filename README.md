@@ -1,5 +1,7 @@
 # Curso-Ver-o2025
+
 📌 Sobre o Projeto
+
 Este projeto foi desenvolvido durante o Curso de Extensão Universitária na modalidade de difusão: "Programação Web para Meninas", realizado entre 27/01/2025 e 31/01/2025. O objetivo foi introduzir conceitos básicos de desenvolvimento web (HTML e CSS) através da criação de um site simples com o tema "Wicked" (musical da Broadway).
 
 ✨ Funcionalidades
